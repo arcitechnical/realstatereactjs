@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Myhome from './Home';
+import AboutUs from './Components/Aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
     <Myhome />
     <App />
+    <AboutUs />
   </React.StrictMode>
 );
 
