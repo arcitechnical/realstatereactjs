@@ -20,7 +20,7 @@ function AboutUs(){
 </div>
  
  <div>
- 	<img src='./image/rasberry.png' />
+ 	<img src="../assets/img3.jpg" />
  </div>
 
 </div>
