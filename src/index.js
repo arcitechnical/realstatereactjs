@@ -5,13 +5,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Myhome from "./Home";
 import Services from "./component/Services";
+import AboutUs from "./Components/Aboutus";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+      
     <Myhome />
     <App />
     <Services />
+    <AboutUs />
+ 
   </React.StrictMode>
 );
 
