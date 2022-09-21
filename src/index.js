@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import Services from "./component/Services";
-import AboutUs from "./Components/Aboutus";
+import Myprogram from "./component/Program";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
   
-   <Services />
+ <Myprogram />
  
   </React.StrictMode>
 );
