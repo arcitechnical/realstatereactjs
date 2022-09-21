@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import Services from "./component/Services";
+import AboutUs from "./Components/Aboutus";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
