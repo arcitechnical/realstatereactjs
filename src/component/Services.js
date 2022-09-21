@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Mydata from './jsontype';
+import Myprogram from "./Program";
 
 const a = ()=>{
 let b = 50;
@@ -27,14 +28,12 @@ for(x;x<=Mydata.length;x++)
 
 function Services() {
 
-
-
   return (
     <div>
       <h1>hellow</h1>
       <button type="button" onClick={a}>submit</button>
     <input type="text" value={y} />
-
+      <Myprogram />
     </div>
       
   )
