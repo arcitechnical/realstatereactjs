@@ -17,3 +17,17 @@ body {
   padding: 20px 30px;
   list-style: none;
 }
+.panel{
+  height: 500px;
+  width: 500px;
+  border: 7px solid black;
+}
+.text-panel{
+  height: 500px;
+  width: 500px !important;
+  border: 7px solid black;
+  margin-left: 10px;
+}
+.font{
+  margin-left: 159px !important;
+}
