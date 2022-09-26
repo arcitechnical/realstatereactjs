@@ -1,0 +1,16 @@
+.cusbtn
+{
+    padding:10px;
+    border:none;
+    color:red;
+    background-color:green;
+    transition-duration:300ms;
+}
+
+.cusbtn:hover{
+    transform:rotate(50deg);
+    transition-duration:300ms;
+}
+
+
+
