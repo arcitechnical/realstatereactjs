@@ -1,4 +1,5 @@
 import React from "react";
+import "./custom.css";
 function Services() {
   return (
     <div className="section">
@@ -11,34 +12,34 @@ function Services() {
             </p>
             <a href="#">
               Requset Custom Service
-              <hr class="red-hr" />
+              <hr className="red-hr" />
             </a>
           </div>
-          <div class="cols">
+          <div className="cols">
             <img src="images/corporate-01.jpg" />
             <h3>Thinking Development</h3>
             <p>I throw myself down among the tall grass by the stream</p>
             <a href="#">
               Read More
-              <hr class="red-hr" />
+              <hr className="red-hr" />
             </a>
           </div>
-          <div class="cols">
+          <div className="cols">
             <img src="images/corporate-02.jpg" />
             <h3>Business Consulting</h3>
             <p>I throw myself down among the tall grass by the stream.</p>
             <a href="#">
               Read More
-              <hr class="red-hr" />
+              <hr className="red-hr" />
             </a>
           </div>
-          <div class="cols">
+          <div className="cols">
             <img src="images/corporate-03.jpg" />
             <h3>Business Development</h3>
             <p>I throw myself down among the tall grass by the stream.</p>
             <a href="#">
               Read More
-              <hr class="red-hr" />
+              <hr className="red-hr" />
             </a>
           </div>
         </div>
