@@ -3,11 +3,13 @@ import "./custom.css";
 
 import Services from "./Services";
 import About from "./About";
-
+import Navbar from "./Navbar";
 import Banner from "./Banner";
 import KnowMore from "./KnowMore";
 import Statistics from "./Statistics";
 import GetToWork from "./GetToWork";
+import Footer from "./Footer";
+
 function Home() {
   return (
     <>
@@ -29,3 +31,4 @@ function Home() {
     </>
   );
 }
+export default Home;
