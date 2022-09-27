@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 //import Myprogram from "./component/Program";
 import Layout from "./component/archita/Layout";
 import {BrowserRouter} from 'react-router-dom';
-import MyProgram from "./component/shashi/Program1";
+import MyProgram from "./component/shashi/Program2";
 
 
 
