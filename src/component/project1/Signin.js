@@ -9,7 +9,11 @@ function Signin()
         {
             console.log(data);
         }
+        const form =[
+            {email: 'arcishub1311@gmail.com', password: '12325'}
+        ]
         return(
+            
             <>
                 <section id="signin">
                     <div className="login">
@@ -38,7 +42,7 @@ function Signin()
                         </form>
                         <div className="text-center mt-3">Do you have an account? <a href="/form">Create an account</a></div>
                     </div>
-                </section>  
+                </section>    
             </>
         )
     }
